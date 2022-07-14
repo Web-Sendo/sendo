@@ -1,0 +1,22 @@
+Dựa vào cấu trúc trong div .card_product để tự động tạo thẻ sản phẩm dựa trên Database
+
+          <div class="card_product">
+            <a href=""> ***thêm link để đẩy sang trang thông tin sản phẩm***
+              <img class="img_product" heigh="100%" src="  ***link hình minh họa***  " alt="Công tắc cánh cửa  tủ quần áo, tủ lạnh công tắc hành trình mở cửa đèn sáng, thường đóng - Tròn">
+              <div class="detail_product">
+                <span class="info_product">
+                  <img src="https://media3.scdn.vn/img4/2020/07_30/h6fJaiL5WkEbDU2eQRZb.png" alt="shop-badge" class="shop_plus"> ***không có làm chức năng này thì có thể bỏ***
+                  <span class="info_detail_product">Công tắc cánh cửa  tủ quần áo, tủ lạnh công tắc hành trình mở cửa đèn sáng, thường đóng - Tròn</span> ***thông tin giới thiệu sản phẩm***
+                </span>
+                <div class="price_product">
+                  <span class="main_price">13.000đ</span><br> ***Giá hiện tại***
+                  <span class="origin_price">16.000đ</span> ***Giá gốc,, chỉ dùng khi có giảm giá***
+                  <span class="discount">-20%</span> ***Nếu có giảm giá thì thêm này***
+                </div>
+                <div class="subinfo_product">
+                  <span class="country_product">Bắc Ninh</span> ***Nguồn cung sản phẩm, nếu có***
+                  <span class="selled_product">Đã bán 36</span>  ***Số lượng đã bán, nếu có***
+                </div>
+              </div>
+            </a>
+          </div>
